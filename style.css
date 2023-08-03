@@ -71,6 +71,7 @@ a{
 }
 
 .faded-text{
+    -webkit-user-select:none;
     user-select:none;
     font-size: 3rem;
     color:rgb(231,231,231);
@@ -123,6 +124,7 @@ a{
 
 .btn-pink {
     background-color: var(--bgOrange);
+    width: -moz-fit-content;
     width: fit-content;
     color: white;
     padding: 0.8rem 2.3rem;
@@ -538,6 +540,7 @@ a{
     color: rgb(231,231,231);
     bottom:-27.3%;
     right:0;
+    -webkit-user-select: none;
     user-select: none;
   }
 
@@ -825,6 +828,7 @@ a{
   left: 0.5rem;
   bottom: 0;
   color: #535c87;
+  -webkit-user-select:none;
   user-select: none;
   font-size: 5em;
   font-weight: 600;

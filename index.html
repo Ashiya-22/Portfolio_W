@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio_Website</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="assets/logo-txt.png">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
 <body>
     <div id="wrapper">
             <div class="navbar">
                     <div class="logo_container">
-                        <img src="assets/logo-txt.png" class="logo">
+                        <img src="assets/logo-txt.png" class="logo" alt="">
                         <div class="logo-text">shish.dev</div>
                     </div>
                     <div class="nav-items">
@@ -31,7 +31,10 @@
                         I'm a aspiring software developer and here is my portfolio website
                         . Here, you'll learn about my journey as a software developer.
                     </div>
-                    <div class="btn-pink" id="button">Hire me</div>
+                    <form action="https://drive.google.com/drive/folders/1idVp-ZBq-y5vdJ5DiT4fYfQfDPJx-oHW?usp=sharing"
+                    method="get" target="_blank">
+                        <button class="btn-pink" id="button" type="submit">Hire me</button>
+                    </form>
                 </div>
 
                 <div class="intro-sec-right">
@@ -83,10 +86,12 @@
 
                         <div class="btn-grp">
                             <button class="btn-pink btn-project">Read More</button>
-                            <a href="">
+                            <a href="https://github.com/Ashiya-22/Portfolio_W" target="_blank"
+                            rel="noopener noreferrer">
                                 <i title="GitHubLink" class="fa-brands fa-github icon"></i>
                             </a>
-                            <a href="">
+                            <a href="https://ashiya-22.github.io/Portfolio_W/" target="_blank"
+                            rel="noopener noreferrer">
                                 <i title="Live Link" class="fa-solid fa-link icon"></i>
                             </a>
                         </div>
@@ -112,10 +117,12 @@
 
                         <div class="btn-grp">
                             <button class="btn-pink btn-project">Read More</button>
-                            <a href="">
+                            <a href="https://github.com/Ashiya-22/RazorPay_C" target="_blank"
+                            rel="noopener noreferrer">
                                 <i title="GitHubLink" class="fa-brands fa-github icon"></i>
                             </a>
-                            <a href="">
+                            <a href="https://razorpay-c.netlify.app/" target="_blank" 
+                            rel="noopener noreferrer">
                                 <i title="Live Link" class="fa-solid fa-link icon"></i>
                             </a>
                         </div>
@@ -146,14 +153,14 @@
         </div>
         <div class="skill-container-right">
             <img src="assets/blob vector.png" class="blob-style" alt="">
-            <img src="assets/HTML.png" class="skills-logo" alt="">
-            <img src="assets/CSS.png" class="skills-logo" alt="">
-            <img src="assets/Tailwind.png" class="skills-logo" alt="">
-            <img src="assets/logo-javascript-2.png" class="skills-logo" alt="">
-            <img src="assets/React.png" class="skills-logo" alt="">
-            <img src="assets/git-icon-logo-png-transparent.png" class="skills-logo" alt="">
-            <img src="assets/github_PNG40.png" class="skills-logo" alt="">
-            <img src="assets/file-type-vscode-icon-512x508-376y62ux.png" class="skills-logo" alt="">
+            <img src="assets/HTML.png" class="skills-logo" alt="" title="HTML">
+            <img src="assets/CSS.png" class="skills-logo" alt="" title="CSS">
+            <img src="assets/Tailwind.png" class="skills-logo" alt="" title="Tailwind">
+            <img src="assets/logo-javascript-2.png" class="skills-logo" alt="" title="Javascript">
+            <img src="assets/React.png" class="skills-logo" alt="" title="React">
+            <img src="assets/git-icon-logo-png-transparent.png" class="skills-logo" alt="" title="Git">
+            <img src="assets/github_PNG40.png" class="skills-logo" alt="" title="Github">
+            <img src="assets/file-type-vscode-icon-512x508-376y62ux.png" class="skills-logo" alt="" title="VSCode">
         </div>
     </div>
     
@@ -210,26 +217,27 @@
             </h3>
 
             <div class="contact-us-form">
-                <form class="form" action="">
+                <form class="form" action="https://formspree.io/f/mqkvenbn"
+                method="POST">
                         <input class="formfield"
                         type="text"
-                        name="name"
+                        name="Name"
                         id=""
                         placeholder="Enter Your Name">
 
                         <input class="formfield"
                         type="email"
-                        name="email"
+                        name="E-Mail"
                         id=""
                         placeholder="Enter Your E-Mail">
 
                         <input class="formfield"
                         type="text"
-                        name="subject"
+                        name="Subject"
                         id=""
                         placeholder="Enter Your Subject">
 
-                        <textarea name="message" 
+                        <textarea name="Message" 
                         id="" 
                         cols="30" 
                         rows="10"
